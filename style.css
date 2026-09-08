@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: rgb(69, 171, 235);
-    color: rgb(231, 235, 235);
+    color: rgb(4, 5, 5);
 }
 
 .cabecalho {
@@ -70,7 +70,7 @@ body {
 
 
 .cabecalho a:hover {
-    background-color: #EBF1E0;
+    background-color: #0a0a0a;
     color: #2e431c;
 }
 
@@ -78,7 +78,7 @@ body {
     border: none;
     border-radius: 4px;
     padding: 8px 10px;
-    color: #fcf8ec;
+    color: #0e0c06;
     background-color: #52702f;
     font-family: Calibri, sans-serif;
     font-size: 18px;
@@ -113,9 +113,10 @@ body {
     padding: 18px;
     display: flex;
     gap: 22px;
-    background-color: #faf8ef;
+    background-color: #fdfdf2;
     border-radius: 5px;
-    box-shadow: 8px 8px 18px #0005072e;
+    box-shadow: 8px 8px 18px #1aa1d62e;
+    
 }
 
 .texto {
@@ -136,12 +137,17 @@ body {
     text-align: left;
 }
 
+
 .imagem {
     flex: 2;
     text-align: center;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 60px;
+    padding-top: 50px;
 }
+
 
 .imagem img {
     width: 100%;
