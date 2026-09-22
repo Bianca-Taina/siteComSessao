@@ -259,7 +259,7 @@ color: #E8EFDA;
 }
 
 body.tema-escuro .cabecalho {
-background-color: #304127;
+background-color: #3936e65e;
 color: #E8EFDA;
 }
 body.tema-escuro .cabecalho-subtitulo {
@@ -302,7 +302,7 @@ box-shadow: 8px 8px 18px #00000059;
 
 body.tema-escuro .fale-conosco input,
 body.tema-escuro .fale-conosco textarea {
-border: 1px solid #2a3b21;
+border: 1px solid #041442;
 background-color: #FFFFFF;
 color: #1C2218;
 }
