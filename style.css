@@ -296,13 +296,13 @@ color: #E8EFDA;
 }
 body.tema-escuro .secao,
 body.tema-escuro .fale-conosco {
-background-color: #262F22;
+background-color: #08277a;
 box-shadow: 8px 8px 18px #00000059;
 }
 
 body.tema-escuro .fale-conosco input,
 body.tema-escuro .fale-conosco textarea {
-border: 1px solid #304127;
+border: 1px solid #2a3b21;
 background-color: #FFFFFF;
 color: #1C2218;
 }
@@ -319,7 +319,7 @@ outline: 2px solid #DEB25B;
 }
 
 body.tema-escuro .fale-conosco .sucesso {
-color: #8FD397;
+color: #273bf1;
 }
 
 body.tema-escuro .fale-conosco .erro {
@@ -327,11 +327,11 @@ color: #E88474;
 }
 
 body.tema-escuro footer {
-background-color: #304127;
+background-color: #020481;
 }
 
 body.tema-escuro .fale-conosco button:disabled {
-background-color: #696F64;
+background-color: #091972;
 color: #FFFFFF;
 }
 
