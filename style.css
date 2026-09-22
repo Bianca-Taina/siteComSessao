@@ -151,28 +151,28 @@ body {
 }
 
 .fale-conosco h2,
-.fale-conosco > p{
+.fale-conosco>p {
     margin-bottom: 15px;
     text-align: center;
 }
 
-.fale-conosco form{
+.fale-conosco form {
     display: flex;
     flex-direction: column;
 }
 
-.fale-conosco label{
+.fale-conosco label {
     margin-top: 10px;
     margin-bottom: 5px;
-    color:aquamarine;
+    color: aquamarine;
     font-weight: bold;
 }
 
 
-.fale-conosco input, 
-.fale-conosco textarea{
+.fale-conosco input,
+.fale-conosco textarea {
     padding: 10px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 4px;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -251,137 +251,225 @@ body {
 /*14/09 - TEMA ESCURO */
 
 body.tema-escuro .cabecalho a {
-color: #271818;
+    color: #271818;
 }
+
 body.tema-escuro {
-background-color: #022a5e;
-color: #0c0e09;
+    background-color: #022a5e;
+    color: #0c0e09;
 }
 
 body.tema-escuro .cabecalho {
-background-color: #3936e65e;
-color: #E8EFDA;
+    background-color: #3936e65e;
+    color: #E8EFDA;
 }
+
 body.tema-escuro .cabecalho-subtitulo {
-color: #221c11;
+    color: #221c11;
 }
 
 body.tema-escuro .cabecalho-titulo,
 body.tema-escuro .fale-conosco label {
-color: #1d2017;
+    color: #1d2017;
 }
+
 body.tema-escuro .cabecalho a {
-color: #110c0c;
+    color: #110c0c;
 }
+
 body.tema-escuro .cabecalho a:hover {
-background-color: #174181;
-color: #E8EFDA;
+    background-color: #174181;
+    color: #E8EFDA;
 }
+
 body.tema-escuro .botao-tema,
 body.tema-escuro .fale-conosco button,
 body.tema-escuro .voltar {
-color: #FFFFFF;
-background-color: #151811;
+    color: #FFFFFF;
+    background-color: #151811;
 }
+
 body.tema-escuro .botao-tema:hover,
 body.tema-escuro .fale-conosco button:hover,
 body.tema-escuro .voltar:hover {
-background-color: #1b1d16;
-color: #f2faed;
+    background-color: #1b1d16;
+    color: #f2faed;
 }
+
 body.tema-escuro .descricao h2,
 body.tema-escuro .fale-conosco h2,
 body.tema-escuro footer {
-color: #fdfdfa;
+    color: #fdfdfa;
 }
+
 body.tema-escuro .secao,
 body.tema-escuro .fale-conosco {
-background-color: #08277a;
-box-shadow: 8px 8px 18px #11111159;
+    background-color: #08277a;
+    box-shadow: 8px 8px 18px #11111159;
 }
 
 body.tema-escuro .fale-conosco input,
 body.tema-escuro .fale-conosco textarea {
-border: 1px solid #041442;
-background-color: #FFFFFF;
-color: #0a0c09;
+    border: 1px solid #041442;
+    background-color: #FFFFFF;
+    color: #0a0c09;
 }
 
 body.tema-escuro .fale-conosco input::placeholder,
 body.tema-escuro .fale-conosco textarea::placeholder,
 body.tema-escuro .fale-conosco .aviso-formulario {
-color: #f4f7f1;
+    color: #f4f7f1;
 }
 
 body.tema-escuro .fale-conosco input:focus,
 body.tema-escuro .fale-conosco textarea:focus {
-outline: 2px solid #DEB25B;
+    outline: 2px solid #DEB25B;
 }
 
 body.tema-escuro .fale-conosco .sucesso {
-color: #273bf1;
+    color: #273bf1;
 }
 
 body.tema-escuro .fale-conosco .erro {
-color: #74e8cf;
+    color: #74e8cf;
 }
 
 body.tema-escuro footer {
-background-color: #282996;
+    background-color: #282996;
 }
 
 body.tema-escuro .fale-conosco button:disabled {
-background-color: #091972;
-color: #FFFFFF;
+    background-color: #091972;
+    color: #FFFFFF;
 }
 
 body.tema-escuro .descricao {
-text-shadow: 2px 2px 5px #00000059;
+    text-shadow: 2px 2px 5px #00000059;
 }
 
 body.tema-escuro .voltar {
-box-shadow: 0 3px 9px #00000073;
+    box-shadow: 0 3px 9px #00000073;
 }
 
 voltar {
-position: fixed;
-right: 18px;
-bottom: 18px;
-z-index: 10;
-/* Ajuste: usamos flex para centralizar a seta dentro de um botão redondo. */
-display: flex;
-justify-content: center;
-align-items: center;
-width: 44px;
-height: 44px;
-color: var(--branco);
-background-color: var(--verde-folha);
-border-radius: 50%;
-text-decoration: none;
-font-weight: bold;
-font-size: 24px;
-line-height: 1;
-opacity: 0.85;
-box-shadow: 0 3px 9px var(--sombra-botao);
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 10;
+    /* Ajuste: usamos flex para centralizar a seta dentro de um botão redondo. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--branco);
+    background-color: var(--verde-folha);
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    opacity: 0.85;
+    box-shadow: 0 3px 9px var(--sombra-botao);
 }
+
 .voltar:hover {
-background-color: var(--verde-profundo);
-opacity: 1;
+    background-color: var(--verde-profundo);
+    opacity: 1;
 }
 
 /* Rodapé */
 footer {
-min-height: 7em;
-color: var(--verde-profundo);
-background-color: var(--verde-claro);
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: 20px;
-border-radius: 5px;
+    min-height: 7em;
+    color: var(--verde-profundo);
+    background-color: var(--verde-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 footer p {
-line-height: 1.5;
+    line-height: 1.5;
+}
+
+/* Ajustes para celulares e tablets */
+
+@media (max-width: 800px) {
+    body {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .secao {
+        flex-direction: column;
+        padding: 14px;
+    }
+
+    .texto,
+    .imagem {
+        padding: 6px;
+    }
+
+    .texto {
+        max-width: 100%;
+    }
+
+    .texto p {
+        text-align: left;
+        line-height: 1.7;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+        padding: 14px;
+    }
+
+    .cabecalho-marca {
+        flex-direction: column;
+        width: min(520px, 100%);
+    }
+
+    .cabecalho-subtitulo {
+        width: 100%;
+        text-align: left;
+    }
+
+    .cabecalho-imagem {
+        width: min(280px, 80vw);
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .cabecalho-lista {
+        width: 100%;
+        gap: 6px;
+    }
+
+    .cabecalho a {
+        font-size: 17px;
+        background-color: #EBF1E0;
+    }
+
+    .botao-tema {
+        width: 100%;
+        max-width: 280px;
+        font-size: 17px;
+    }
+
+    footer .texto {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    footer .texto p {
+        text-align: center;
+    }
+
+    .imagem img {
+        height: 220px;
+    }
 }
