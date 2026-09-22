@@ -297,14 +297,14 @@ color: #fdfdfa;
 body.tema-escuro .secao,
 body.tema-escuro .fale-conosco {
 background-color: #08277a;
-box-shadow: 8px 8px 18px #00000059;
+box-shadow: 8px 8px 18px #11111159;
 }
 
 body.tema-escuro .fale-conosco input,
 body.tema-escuro .fale-conosco textarea {
 border: 1px solid #041442;
 background-color: #FFFFFF;
-color: #1C2218;
+color: #f0f3ee;
 }
 
 body.tema-escuro .fale-conosco input::placeholder,
