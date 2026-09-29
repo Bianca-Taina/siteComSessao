@@ -76,7 +76,7 @@ body {
     border-radius: 4px;
     padding: 8px 10px;
     color: #0e0c06;
-    background-color: #52702f;
+    background-color: #0d0f0a;
     font-family: Calibri, sans-serif;
     font-size: 18px;
     cursor: pointer;
@@ -286,7 +286,7 @@ body.tema-escuro .botao-tema,
 body.tema-escuro .fale-conosco button,
 body.tema-escuro .voltar {
     color: #FFFFFF;
-    background-color: #dde2d6;
+    background-color: #171815;
 }
 
 body.tema-escuro .botao-tema:hover,
